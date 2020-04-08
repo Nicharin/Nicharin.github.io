@@ -1,0 +1,140 @@
+#page {
+  width: 1200px;
+  
+}
+header {
+  width: 1200px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  padding: 20px 0px;
+   position: sticky;
+}
+a {
+  color: white;
+  font-family: roboto;
+    font-size: 40px;
+  font-weight: bold;
+  padding: 0 65px;
+  text-decoration: none;
+}
+#contents{
+  display: flex;
+  padding-top: 75px;  
+}
+
+aside{
+  flex-grow: 5;
+}
+
+img{
+  width: 100%;
+}
+#Name{
+  position:absolute;
+  
+}
+
+
+
+#main{
+  flex-grow: 5;
+ 
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+p{
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+ul{
+  padding-left: 350px;
+  padding-right: 300px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+h1{
+  position: absolute;
+  top: 220px;
+  left: 300px;
+  font-family: Roboto Slab', serif;
+  color:#222;
+  font-size: 35px;
+}
+h3{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+#Name{
+position: absolute;
+  top: 300px;
+ 
+}
+#long-list{
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: #222;
+}
+.sub{
+ font-family: 'Merriweather', serif;
+ font-size: 16px;
+ font-style: italic;
+ font-weight: bold;
+ padding-top: 0;
+ margin-top: 0;
+ padding-bottom: 5px;
+ margin-bottom: 5px;
+}
+.thictxt{
+ font-family: 'Josefin Sans', sans-serif;
+ color: #222;
+ font-size: 19px;
+ font-weight: bold;
+ margin-bottom: 0;  
+ padding-bottom: 0;
+}
+.thintxt {
+   font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+ font-size: 16px;
+   padding-left: 250px;
+  padding-right: 250px;
+  
+
+}
+blockquote {
+    position: relative;
+    background: #444444;
+    width: 100%;
+    margin-left: 0;
+  
+}
+blockquote::before {
+  position: absolute;
+  top: -0.3em;
+  left: 0px;
+  content: "“";
+  font-family: 'Abril Fatface', cursive;
+  font-size: 120px;
+  color: white;
+}
+q{ 
+  font-family: roboto;
+  font-size: 50px;
+  color: white;
+  line-height: 1em;
+  display: relative;
+  text-align: left;
+  flex-wrap: wrap;
+  quotes: none;
+  padding: 30px 40px 30px 40px;
+  display: block;
+}
